@@ -21,7 +21,6 @@ public class SmoothFollow : MonoBehaviour
     // The target we are following
     //[Header("Target object")]
     Transform target;
-    
     // The distance in the x-z plane to the target
     [Header("The distance between camera and object")]
     [Range(0, 50)]
