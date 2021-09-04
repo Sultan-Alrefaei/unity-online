@@ -39,7 +39,6 @@ public class SmoothFollow : MonoBehaviour
     [MenuItem("Camera-Control/Smooth Follow")]
 
 
-    // Update is called once per frame
     void Update()
     {
         if (GameObject.FindGameObjectWithTag("Player") != null)
