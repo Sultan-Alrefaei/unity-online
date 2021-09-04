@@ -38,7 +38,8 @@ public class SmoothFollow : MonoBehaviour
 
     [MenuItem("Camera-Control/Smooth Follow")]
 
-
+    // Update function
+    
     void Update()
     {
         if (GameObject.FindGameObjectWithTag("Player") != null)
